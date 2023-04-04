@@ -6,29 +6,32 @@
 //
 
 import UIKit
+import Lottie
 
 
 final class LoadingView: UIViewController {
     
-    lazy var loadingImageView: UIImageView = {
-        let image = UIImage(named: "logo")!
-        let imageView = UIImageView(image: image)
-        imageView.contentMode = .scaleAspectFit
-        
-        imageView.rotation(start: true, direction: .clockwise)
-        imageView.autoresizingMask = [
-            .flexibleTopMargin, .flexibleBottomMargin,
-            .flexibleLeftMargin, .flexibleRightMargin
-        ]
-        
-        return imageView
+    let animationView: LottieAnimationView = {
+        let view = LottieAnimationView(name: "loading.json")
+        view.loopMode = .loop
+        view.play()
+        return view
+    }()
+    
+    lazy var loadingLabel: UILabel = {
+        let label = UILabel()
+        label.font = .systemFont(ofSize: 12, weight: .medium)
+        label.textColor = .blueSoft
+        label.text = "Loading..."
+        label.textAlignment = .center
+        return label
     }()
     
     lazy var blurEffectView: UIVisualEffectView = {
-        let blurEffect = UIBlurEffect(style: .dark)
+        let blurEffect = UIBlurEffect(style: .light)
         let blurEffectView = UIVisualEffectView(effect: blurEffect)
         
-        blurEffectView.alpha = 1
+        blurEffectView.alpha = 0.8
         
         blurEffectView.autoresizingMask = [
             .flexibleWidth, .flexibleHeight
@@ -42,19 +45,17 @@ final class LoadingView: UIViewController {
         loadSubviews()
     }
     
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        loadingImageView.rotation(start: true, duration: 1.0, direction: .clockwise)
-    }
-    
     private func loadSubviews() {
-        view.backgroundColor = UIColor.black.withAlphaComponent(0.5)
+        view.backgroundColor = .clear
         
         blurEffectView.frame = self.view.bounds
         view.insertSubview(blurEffectView, at: 0)
         
-        loadingImageView.frame.size = CGSize(width: 100, height: 100)
-        loadingImageView.center = CGPoint(x: view.bounds.midX, y: view.bounds.midY)
-        view.addSubview(loadingImageView)
+        animationView.frame.size = CGSize(width: 75.0, height: 75.0)
+        animationView.center = CGPoint(x: view.bounds.midX, y: view.bounds.midY)
+        view.addSubview(animationView)
+        
+        view.addSubview(loadingLabel)
+        loadingLabel.anchor(top: animationView.bottomAnchor, left: animationView.leftAnchor, bottom: nil, right: animationView.rightAnchor, paddingTop: -15, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, width: animationView.bounds.width, height: 22)
     }
 }

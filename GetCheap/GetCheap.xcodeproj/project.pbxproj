@@ -10,7 +10,6 @@
 		66CA793E29DB784900AB4980 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA793D29DB784900AB4980 /* AppDelegate.swift */; };
 		66CA794029DB784900AB4980 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA793F29DB784900AB4980 /* SceneDelegate.swift */; };
 		66CA794229DB784900AB4980 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA794129DB784900AB4980 /* ViewController.swift */; };
-		66CA794529DB784900AB4980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CA794329DB784900AB4980 /* Main.storyboard */; };
 		66CA794729DB784A00AB4980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CA794629DB784A00AB4980 /* Assets.xcassets */; };
 		66CA794A29DB784A00AB4980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CA794829DB784A00AB4980 /* LaunchScreen.storyboard */; };
 		66CA796629DB849D00AB4980 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA795629DB849D00AB4980 /* UICollectionView+Ext.swift */; };
@@ -31,6 +30,24 @@
 		66CA797929DB8B7700AB4980 /* SPIndicator in Frameworks */ = {isa = PBXBuildFile; productRef = 66CA797829DB8B7700AB4980 /* SPIndicator */; };
 		66CA797C29DB8BBF00AB4980 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA797B29DB8BBF00AB4980 /* LoadingView.swift */; };
 		66CA797E29DB8D8800AB4980 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA797D29DB8D8800AB4980 /* ImageLoader.swift */; };
+		66CA798129DB9A5700AB4980 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 66CA798029DB9A5700AB4980 /* Lottie */; };
+		66CA798329DB9C1500AB4980 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 66CA798229DB9C1500AB4980 /* loading.json */; };
+		66CA798629DBA3BE00AB4980 /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA798429DBA3BE00AB4980 /* MainTabBarVC.swift */; };
+		66CA798B29DBA4C700AB4980 /* DealVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA798A29DBA4C700AB4980 /* DealVC.swift */; };
+		66CA798D29DBA4EB00AB4980 /* DealVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66CA798C29DBA4EB00AB4980 /* DealVC.xib */; };
+		66CA799129DBAF4A00AB4980 /* GameVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66CA799029DBAF4A00AB4980 /* GameVC.xib */; };
+		66CA799329DBAF5200AB4980 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA799229DBAF5200AB4980 /* GameVC.swift */; };
+		66CA799629DBAF9E00AB4980 /* StoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA799529DBAF9E00AB4980 /* StoreVC.swift */; };
+		66CA799829DBAFA500AB4980 /* StoreVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66CA799729DBAFA500AB4980 /* StoreVC.xib */; };
+		66CA799B29DBAFF700AB4980 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA799A29DBAFF700AB4980 /* SettingVC.swift */; };
+		66CA799D29DBB01600AB4980 /* SettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66CA799C29DBB01600AB4980 /* SettingVC.xib */; };
+		66CA799F29DBB3A300AB4980 /* MainTabBarContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA799E29DBB3A300AB4980 /* MainTabBarContracts.swift */; };
+		66CA79A129DBB85200AB4980 /* MainTabBarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA79A029DBB85200AB4980 /* MainTabBarInteractor.swift */; };
+		66CA79A329DBB88100AB4980 /* MainTabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA79A229DBB88100AB4980 /* MainTabBarPresenter.swift */; };
+		66CA79A529DBBB0900AB4980 /* MainTabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA79A429DBBB0900AB4980 /* MainTabBarRouter.swift */; };
+		66CA79A729DBBE3D00AB4980 /* MainTabBarEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA79A629DBBE3D00AB4980 /* MainTabBarEntity.swift */; };
+		66CA79AC29DBC36600AB4980 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA79AB29DBC36600AB4980 /* Reachability.swift */; };
+		66CA79AE29DBCE8000AB4980 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA79AD29DBCE8000AB4980 /* BaseTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +55,6 @@
 		66CA793D29DB784900AB4980 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66CA793F29DB784900AB4980 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		66CA794129DB784900AB4980 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		66CA794429DB784900AB4980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66CA794629DB784A00AB4980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66CA794929DB784A00AB4980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66CA794B29DB784A00AB4980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +75,23 @@
 		66CA797529DB888800AB4980 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		66CA797B29DB8BBF00AB4980 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		66CA797D29DB8D8800AB4980 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		66CA798229DB9C1500AB4980 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		66CA798429DBA3BE00AB4980 /* MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
+		66CA798A29DBA4C700AB4980 /* DealVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealVC.swift; sourceTree = "<group>"; };
+		66CA798C29DBA4EB00AB4980 /* DealVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealVC.xib; sourceTree = "<group>"; };
+		66CA799029DBAF4A00AB4980 /* GameVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameVC.xib; sourceTree = "<group>"; };
+		66CA799229DBAF5200AB4980 /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
+		66CA799529DBAF9E00AB4980 /* StoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreVC.swift; sourceTree = "<group>"; };
+		66CA799729DBAFA500AB4980 /* StoreVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreVC.xib; sourceTree = "<group>"; };
+		66CA799A29DBAFF700AB4980 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		66CA799C29DBB01600AB4980 /* SettingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingVC.xib; sourceTree = "<group>"; };
+		66CA799E29DBB3A300AB4980 /* MainTabBarContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarContracts.swift; sourceTree = "<group>"; };
+		66CA79A029DBB85200AB4980 /* MainTabBarInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarInteractor.swift; sourceTree = "<group>"; };
+		66CA79A229DBB88100AB4980 /* MainTabBarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarPresenter.swift; sourceTree = "<group>"; };
+		66CA79A429DBBB0900AB4980 /* MainTabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarRouter.swift; sourceTree = "<group>"; };
+		66CA79A629DBBE3D00AB4980 /* MainTabBarEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarEntity.swift; sourceTree = "<group>"; };
+		66CA79AB29DBC36600AB4980 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		66CA79AD29DBCE8000AB4980 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66CA797929DB8B7700AB4980 /* SPIndicator in Frameworks */,
+				66CA798129DB9A5700AB4980 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +128,7 @@
 			children = (
 				66CA795129DB7FB600AB4980 /* AppDelegate */,
 				66CA794129DB784900AB4980 /* ViewController.swift */,
-				66CA794329DB784900AB4980 /* Main.storyboard */,
+				66CA798829DBA4B000AB4980 /* Scenes */,
 				66CA797A29DB8BAC00AB4980 /* Views */,
 				66CA795329DB849D00AB4980 /* Utilities */,
 				66CA795229DB7FD700AB4980 /* SupportFiles */,
@@ -114,6 +148,7 @@
 		66CA795229DB7FD700AB4980 /* SupportFiles */ = {
 			isa = PBXGroup;
 			children = (
+				66CA798229DB9C1500AB4980 /* loading.json */,
 				66CA794629DB784A00AB4980 /* Assets.xcassets */,
 				66CA794829DB784A00AB4980 /* LaunchScreen.storyboard */,
 				66CA794B29DB784A00AB4980 /* Info.plist */,
@@ -124,6 +159,7 @@
 		66CA795329DB849D00AB4980 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				66CA79A829DBC23200AB4980 /* Managers */,
 				66CA795429DB849D00AB4980 /* Extensions */,
 				66CA795B29DB849D00AB4980 /* Helpers */,
 				66CA795E29DB849D00AB4980 /* Base */,
@@ -158,12 +194,13 @@
 		66CA795E29DB849D00AB4980 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				66CA79AD29DBCE8000AB4980 /* BaseTabBarController.swift */,
 				66CA795F29DB849D00AB4980 /* BaseViewController.swift */,
+				66CA796429DB849D00AB4980 /* BaseNavigationController.swift */,
 				66CA796029DB849D00AB4980 /* BaseCustomView.swift */,
 				66CA796129DB849D00AB4980 /* BaseCollectionViewProvider.swift */,
 				66CA796229DB849D00AB4980 /* BaseTableViewProvider.swift */,
 				66CA796329DB849D00AB4980 /* ObservationType.swift */,
-				66CA796429DB849D00AB4980 /* BaseNavigationController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -174,6 +211,75 @@
 				66CA797B29DB8BBF00AB4980 /* LoadingView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		66CA798829DBA4B000AB4980 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				66CA798E29DBA4FE00AB4980 /* TabBar */,
+				66CA798929DBA4BA00AB4980 /* Deal */,
+				66CA798F29DBA69900AB4980 /* Game */,
+				66CA799429DBAF7F00AB4980 /* Store */,
+				66CA799929DBAFDE00AB4980 /* Setting */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		66CA798929DBA4BA00AB4980 /* Deal */ = {
+			isa = PBXGroup;
+			children = (
+				66CA798A29DBA4C700AB4980 /* DealVC.swift */,
+				66CA798C29DBA4EB00AB4980 /* DealVC.xib */,
+			);
+			path = Deal;
+			sourceTree = "<group>";
+		};
+		66CA798E29DBA4FE00AB4980 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				66CA799E29DBB3A300AB4980 /* MainTabBarContracts.swift */,
+				66CA798429DBA3BE00AB4980 /* MainTabBarVC.swift */,
+				66CA79A029DBB85200AB4980 /* MainTabBarInteractor.swift */,
+				66CA79A229DBB88100AB4980 /* MainTabBarPresenter.swift */,
+				66CA79A629DBBE3D00AB4980 /* MainTabBarEntity.swift */,
+				66CA79A429DBBB0900AB4980 /* MainTabBarRouter.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		66CA798F29DBA69900AB4980 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				66CA799229DBAF5200AB4980 /* GameVC.swift */,
+				66CA799029DBAF4A00AB4980 /* GameVC.xib */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		66CA799429DBAF7F00AB4980 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				66CA799529DBAF9E00AB4980 /* StoreVC.swift */,
+				66CA799729DBAFA500AB4980 /* StoreVC.xib */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		66CA799929DBAFDE00AB4980 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				66CA799A29DBAFF700AB4980 /* SettingVC.swift */,
+				66CA799C29DBB01600AB4980 /* SettingVC.xib */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		66CA79A829DBC23200AB4980 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				66CA79AB29DBC36600AB4980 /* Reachability.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +300,7 @@
 			name = GetCheap;
 			packageProductDependencies = (
 				66CA797829DB8B7700AB4980 /* SPIndicator */,
+				66CA798029DB9A5700AB4980 /* Lottie */,
 			);
 			productName = GetCheap;
 			productReference = 66CA793A29DB784900AB4980 /* GetCheap.app */;
@@ -225,6 +332,7 @@
 			mainGroup = 66CA793129DB784900AB4980;
 			packageReferences = (
 				66CA797729DB8B7700AB4980 /* XCRemoteSwiftPackageReference "SPIndicator" */,
+				66CA797F29DB9A5700AB4980 /* XCRemoteSwiftPackageReference "lottie-spm" */,
 			);
 			productRefGroup = 66CA793B29DB784900AB4980 /* Products */;
 			projectDirPath = "";
@@ -240,9 +348,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66CA799829DBAFA500AB4980 /* StoreVC.xib in Resources */,
 				66CA794A29DB784A00AB4980 /* LaunchScreen.storyboard in Resources */,
+				66CA799129DBAF4A00AB4980 /* GameVC.xib in Resources */,
+				66CA798D29DBA4EB00AB4980 /* DealVC.xib in Resources */,
 				66CA794729DB784A00AB4980 /* Assets.xcassets in Resources */,
-				66CA794529DB784900AB4980 /* Main.storyboard in Resources */,
+				66CA799D29DBB01600AB4980 /* SettingVC.xib in Resources */,
+				66CA798329DB9C1500AB4980 /* loading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,25 +365,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66CA79AE29DBCE8000AB4980 /* BaseTabBarController.swift in Sources */,
 				66CA796829DB849D00AB4980 /* UIColor+Ext.swift in Sources */,
 				66CA796B29DB849D00AB4980 /* AppDesign.swift in Sources */,
 				66CA797E29DB8D8800AB4980 /* ImageLoader.swift in Sources */,
 				66CA797029DB849D00AB4980 /* BaseTableViewProvider.swift in Sources */,
+				66CA798629DBA3BE00AB4980 /* MainTabBarVC.swift in Sources */,
 				66CA796929DB849D00AB4980 /* NSObject+Ext.swift in Sources */,
+				66CA799629DBAF9E00AB4980 /* StoreVC.swift in Sources */,
 				66CA796C29DB849D00AB4980 /* AppConstants.swift in Sources */,
+				66CA79A129DBB85200AB4980 /* MainTabBarInteractor.swift in Sources */,
 				66CA796D29DB849D00AB4980 /* BaseViewController.swift in Sources */,
+				66CA799329DBAF5200AB4980 /* GameVC.swift in Sources */,
 				66CA794229DB784900AB4980 /* ViewController.swift in Sources */,
 				66CA793E29DB784900AB4980 /* AppDelegate.swift in Sources */,
 				66CA797629DB888800AB4980 /* ImageCache.swift in Sources */,
 				66CA796F29DB849D00AB4980 /* BaseCollectionViewProvider.swift in Sources */,
+				66CA79A729DBBE3D00AB4980 /* MainTabBarEntity.swift in Sources */,
 				66CA796A29DB849D00AB4980 /* UIView+Ext.swift in Sources */,
 				66CA796729DB849D00AB4980 /* UITableView+Ext.swift in Sources */,
 				66CA794029DB784900AB4980 /* SceneDelegate.swift in Sources */,
+				66CA799B29DBAFF700AB4980 /* SettingVC.swift in Sources */,
+				66CA799F29DBB3A300AB4980 /* MainTabBarContracts.swift in Sources */,
 				66CA796629DB849D00AB4980 /* UICollectionView+Ext.swift in Sources */,
 				66CA797229DB849D00AB4980 /* BaseNavigationController.swift in Sources */,
 				66CA797429DB874200AB4980 /* UIImage+Ext.swift in Sources */,
 				66CA797129DB849D00AB4980 /* ObservationType.swift in Sources */,
+				66CA79A529DBBB0900AB4980 /* MainTabBarRouter.swift in Sources */,
 				66CA797C29DB8BBF00AB4980 /* LoadingView.swift in Sources */,
+				66CA79A329DBB88100AB4980 /* MainTabBarPresenter.swift in Sources */,
+				66CA798B29DBA4C700AB4980 /* DealVC.swift in Sources */,
+				66CA79AC29DBC36600AB4980 /* Reachability.swift in Sources */,
 				66CA796E29DB849D00AB4980 /* BaseCustomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,14 +403,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		66CA794329DB784900AB4980 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				66CA794429DB784900AB4980 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		66CA794829DB784A00AB4980 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -424,7 +540,7 @@
 				INFOPLIST_FILE = GetCheap/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,7 +571,7 @@
 				INFOPLIST_FILE = GetCheap/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -506,6 +622,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		66CA797F29DB9A5700AB4980 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -513,6 +637,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 66CA797729DB8B7700AB4980 /* XCRemoteSwiftPackageReference "SPIndicator" */;
 			productName = SPIndicator;
+		};
+		66CA798029DB9A5700AB4980 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66CA797F29DB9A5700AB4980 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

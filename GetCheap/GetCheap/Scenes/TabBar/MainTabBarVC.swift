@@ -49,8 +49,13 @@ extension MainTabBarVC: TabBarPresenterToViewProtocol {
         switch output {
         case .loaders(let items):
             self.setupVCs(items)
-        case .networkNotReachable:
-            showAlert(title: AppConstants.APP_TITLE, message: "Network not reachable.\n Try again!")
+        case .networkReachability(let status):
+            switch status {
+            case .hasConnection:
+                showToastMessage(title: AppConstants.APP_TITLE, message: status.rawValue, preset: .done)
+            case .noConnection:
+                showAlert(title: AppConstants.APP_TITLE, message: status.rawValue)
+            }
         }
     }
 }

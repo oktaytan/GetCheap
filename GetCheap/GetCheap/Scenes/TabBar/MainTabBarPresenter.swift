@@ -36,8 +36,8 @@ final class MainTabBarPresenter: TabBarViewToPresenterProtocol {
 extension MainTabBarPresenter: TabBarInteractorToPresenterProtocol {
     func handleOutput(_ output: TabBarInteractorOutput) {
         switch output {
-        case .networkNotReachable:
-            self.view?.handleOutput(.networkNotReachable)
+        case .networkReachability(let status):
+            self.view?.handleOutput(.networkReachability(status))
         }
     }
 }

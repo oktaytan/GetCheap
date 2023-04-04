@@ -11,4 +11,5 @@ struct AppConstants {
     
     static let APP_TITLE = "GetCheap"
     static let BASE_API_URL = "https://api.disneyapi.dev"
+    static let NETWORK_STATUS = "NetworkStatus"
 }

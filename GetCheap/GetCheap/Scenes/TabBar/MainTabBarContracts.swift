@@ -22,14 +22,14 @@ protocol TabBarViewToPresenterProtocol: AnyObject {
 // MARK: - INTERACTOR
 protocol TabBarPresenterToInteractorProtocol: AnyObject {
     var presenter: TabBarInteractorToPresenterProtocol? { get set }
-    var reachability: Reachability { get set }
+    var monitor: NetworkMonitorProtocol { get set }
     
     func load()
     func checkConnection()
 }
 
 enum TabBarInteractorOutput {
-    case networkNotReachable
+    case networkReachability(NetworkStatus)
 }
 
 protocol TabBarInteractorToPresenterProtocol: AnyObject {
@@ -39,7 +39,7 @@ protocol TabBarInteractorToPresenterProtocol: AnyObject {
 
 // MARK: - PRESENTER
 enum TabBarPresenterOutput {
-    case loaders([TabItemType]), networkNotReachable
+    case loaders([TabItemType]), networkReachability(NetworkStatus)
 }
 
 protocol TabBarPresenterToViewProtocol: AnyObject {

@@ -10,46 +10,30 @@ import Foundation
 final class MainTabBarInteractor: TabBarPresenterToInteractorProtocol {
     var presenter: TabBarInteractorToPresenterProtocol?
     
-    var reachability: Reachability
+    var monitor: NetworkMonitorProtocol
     
-    init(reachability: Reachability) {
-        self.reachability = reachability
+    init(monitor: NetworkMonitorProtocol) {
+        self.monitor = monitor
     }
     
     func load() {
-        NotificationCenter.default.addObserver(self, selector: #selector(reachabilityChanged(note:)), name: .reachabilityChanged, object: reachability)
-        
-        do {
-            try reachability.startNotifier()
-        } catch {
-            print("Could not start reachability notifier")
-        }
+        monitor.start()
+        NotificationCenter.default.addObserver(self, selector: #selector(networkReachabilityChanged(_:)), name: .networkReachabilityChanged, object: nil)
+    }
+    
+    func checkConnection() {
+        presenter?.handleOutput(.networkReachability(monitor.status))
     }
     
     deinit {
-        reachability.stopNotifier()
-        NotificationCenter.default.removeObserver(self, name: .reachabilityChanged, object: reachability)
+        monitor.stop()
+        NotificationCenter.default.removeObserver(self, name: .networkReachabilityChanged, object: nil)
     }
 }
 
 extension MainTabBarInteractor {
-    @objc func reachabilityChanged(note: Notification) {
-        
-        let reachability = note.object as! Reachability
-        
-        checkReachability(reachability)
-    }
-    
-    func checkConnection() {
-        checkReachability(self.reachability)
-    }
-    
-    private func checkReachability(_ reachability: Reachability) {
-        switch reachability.connection {
-        case .wifi, .cellular:
-            break
-        case .unavailable:
-            presenter?.handleOutput(.networkNotReachable)
-        }
+    @objc func networkReachabilityChanged(_ notification: Notification) {
+        guard let status = notification.userInfo?[AppConstants.NETWORK_STATUS] as? NetworkStatus  else { return }
+        presenter?.handleOutput(.networkReachability(status))
     }
 }

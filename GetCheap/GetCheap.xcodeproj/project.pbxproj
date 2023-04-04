@@ -46,8 +46,9 @@
 		66CA79A329DBB88100AB4980 /* MainTabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA79A229DBB88100AB4980 /* MainTabBarPresenter.swift */; };
 		66CA79A529DBBB0900AB4980 /* MainTabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA79A429DBBB0900AB4980 /* MainTabBarRouter.swift */; };
 		66CA79A729DBBE3D00AB4980 /* MainTabBarEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA79A629DBBE3D00AB4980 /* MainTabBarEntity.swift */; };
-		66CA79AC29DBC36600AB4980 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA79AB29DBC36600AB4980 /* Reachability.swift */; };
 		66CA79AE29DBCE8000AB4980 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA79AD29DBCE8000AB4980 /* BaseTabBarController.swift */; };
+		66DACC6D29DC9B4C00D0251D /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DACC6C29DC9B4C00D0251D /* NetworkMonitor.swift */; };
+		66DACC6F29DC9E9B00D0251D /* Notification+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DACC6E29DC9E9B00D0251D /* Notification+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,8 +91,9 @@
 		66CA79A229DBB88100AB4980 /* MainTabBarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarPresenter.swift; sourceTree = "<group>"; };
 		66CA79A429DBBB0900AB4980 /* MainTabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarRouter.swift; sourceTree = "<group>"; };
 		66CA79A629DBBE3D00AB4980 /* MainTabBarEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarEntity.swift; sourceTree = "<group>"; };
-		66CA79AB29DBC36600AB4980 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		66CA79AD29DBCE8000AB4980 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		66DACC6C29DC9B4C00D0251D /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		66DACC6E29DC9E9B00D0251D /* Notification+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 				66CA795829DB849D00AB4980 /* UIColor+Ext.swift */,
 				66CA795929DB849D00AB4980 /* NSObject+Ext.swift */,
 				66CA795A29DB849D00AB4980 /* UIView+Ext.swift */,
+				66DACC6E29DC9E9B00D0251D /* Notification+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -277,7 +280,7 @@
 		66CA79A829DBC23200AB4980 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				66CA79AB29DBC36600AB4980 /* Reachability.swift */,
+				66DACC6C29DC9B4C00D0251D /* NetworkMonitor.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 				66CA796829DB849D00AB4980 /* UIColor+Ext.swift in Sources */,
 				66CA796B29DB849D00AB4980 /* AppDesign.swift in Sources */,
 				66CA797E29DB8D8800AB4980 /* ImageLoader.swift in Sources */,
+				66DACC6F29DC9E9B00D0251D /* Notification+Ext.swift in Sources */,
 				66CA797029DB849D00AB4980 /* BaseTableViewProvider.swift in Sources */,
 				66CA798629DBA3BE00AB4980 /* MainTabBarVC.swift in Sources */,
 				66CA796929DB849D00AB4980 /* NSObject+Ext.swift in Sources */,
@@ -387,6 +391,7 @@
 				66CA794029DB784900AB4980 /* SceneDelegate.swift in Sources */,
 				66CA799B29DBAFF700AB4980 /* SettingVC.swift in Sources */,
 				66CA799F29DBB3A300AB4980 /* MainTabBarContracts.swift in Sources */,
+				66DACC6D29DC9B4C00D0251D /* NetworkMonitor.swift in Sources */,
 				66CA796629DB849D00AB4980 /* UICollectionView+Ext.swift in Sources */,
 				66CA797229DB849D00AB4980 /* BaseNavigationController.swift in Sources */,
 				66CA797429DB874200AB4980 /* UIImage+Ext.swift in Sources */,
@@ -395,7 +400,6 @@
 				66CA797C29DB8BBF00AB4980 /* LoadingView.swift in Sources */,
 				66CA79A329DBB88100AB4980 /* MainTabBarPresenter.swift in Sources */,
 				66CA798B29DBA4C700AB4980 /* DealVC.swift in Sources */,
-				66CA79AC29DBC36600AB4980 /* Reachability.swift in Sources */,
 				66CA796E29DB849D00AB4980 /* BaseCustomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

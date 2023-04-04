@@ -6,11 +6,18 @@
 //
 
 import UIKit
+import SPIndicator
 
 class BaseTabBarController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    func showToastMessage(title: String?, message: String?, preset: SPIndicatorIconPreset) {
+        DispatchQueue.main.async {
+            SPIndicator.present(title: title ?? "", message: message, preset: preset)
+        }
     }
     
     func showAlert(title: String?, message: String?) {
@@ -28,6 +35,8 @@ class BaseTabBarController: UITabBarController {
             return
         }
         
-        activeController.present(alertController, animated: true)
+        DispatchQueue.main.async {
+            activeController.present(alertController, animated: true)
+        }
     }
 }

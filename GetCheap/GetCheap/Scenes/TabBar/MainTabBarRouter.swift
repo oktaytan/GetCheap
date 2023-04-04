@@ -11,8 +11,8 @@ final class MainTabBarRouter: TabBarPresenterToRouterProtocol {
     
     static func createModule() -> BaseTabBarController {
         let tabBar = MainTabBarVC(nibName: MainTabBarVC.className, bundle: nil)
-        let reachability = try! Reachability()
-        let interactor = MainTabBarInteractor(reachability: reachability)
+        
+        let interactor = MainTabBarInteractor(monitor: NetworkMonitor.shared)
         let router = MainTabBarRouter()
         let presenter = MainTabBarPresenter(view: tabBar, interactor: interactor, router: router)
         

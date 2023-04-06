@@ -15,6 +15,7 @@ final class LoadingView: UIViewController {
         let view = LottieAnimationView(name: "loading.json")
         view.loopMode = .loop
         view.play()
+        view.backgroundColor = .clear
         return view
     }()
     
@@ -31,7 +32,7 @@ final class LoadingView: UIViewController {
         let blurEffect = UIBlurEffect(style: .light)
         let blurEffectView = UIVisualEffectView(effect: blurEffect)
         
-        blurEffectView.alpha = 0.8
+        blurEffectView.alpha = 1.0
         
         blurEffectView.autoresizingMask = [
             .flexibleWidth, .flexibleHeight
@@ -46,7 +47,7 @@ final class LoadingView: UIViewController {
     }
     
     private func loadSubviews() {
-        view.backgroundColor = .clear
+        view.backgroundColor = .white
         
         blurEffectView.frame = self.view.bounds
         view.insertSubview(blurEffectView, at: 0)

@@ -65,27 +65,46 @@ class BaseViewController: UIViewController {
         }
     }
     
+    func handleLoading(_ show: Bool) {
+        show ? showLoading() : hideLoading()
+    }
+    
     // Ekranda fullpage loading animasyonu gösterir.
-    func showLoading() {
+    private func showLoading() {
         hideLoading()
-        present(loadingView, animated: true)
+        DispatchQueue.main.async { [weak self] in
+            guard let loadingView = self?.loadingView else { return }
+            self?.present(loadingView, animated: true)
+        }
     }
     
     // Ekrandaki loading animasyonunu kaldırır.
-    func hideLoading() {
-        loadingView.dismiss(animated: true)
+    private func hideLoading() {
+        DispatchQueue.main.async { [weak self] in
+            self?.loadingView.dismiss(animated: true)
+        }
     }
     
     // Navbar'a varsa action ile butonn ekler.
-    func setupNavBar(title: String?, leftIcon: String?, rightIcon: String?, leftItemAction: Selector? = nil, rightItemAction: Selector? = nil) {
+    func setupNavBar(title: String? = nil, leftIcon: String? = nil, leftTitle: String? = nil, rightIcon: String? = nil, rightTitle: String? = nil, leftItemAction: Selector? = nil, rightItemAction: Selector? = nil) {
         if let leftIcon = leftIcon {
             let leftItem = UIBarButtonItem(image: UIImage(named: leftIcon)?.withRenderingMode(.alwaysOriginal), style: .plain, target: self, action: leftItemAction)
+            self.navigationItem.leftBarButtonItem = leftItem
+        }
+        
+        if let leftTitle = leftTitle {
+            let leftItem = UIBarButtonItem(title: leftTitle, style: .plain, target: self, action: leftItemAction)
             self.navigationItem.leftBarButtonItem = leftItem
         }
         
         if let rightIcon = rightIcon {
             let rightItem = UIBarButtonItem(image: UIImage(named: rightIcon)?.withRenderingMode(.alwaysOriginal), style: .plain, target: self, action: rightItemAction)
             self.navigationItem.rightBarButtonItem = rightItem
+        }
+        
+        if let rightTitle = rightTitle {
+            let rightItem = UIBarButtonItem(title: rightTitle, style: .plain, target: self, action: rightItemAction)
+            self.navigationItem.leftBarButtonItem = rightItem
         }
         
         self.title = title

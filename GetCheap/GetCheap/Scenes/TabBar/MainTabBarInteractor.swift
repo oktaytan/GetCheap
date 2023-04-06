@@ -8,8 +8,8 @@
 import Foundation
 
 final class MainTabBarInteractor: TabBarPresenterToInteractorProtocol {
-    var presenter: TabBarInteractorToPresenterProtocol?
     
+    var presenter: TabBarInteractorToPresenterProtocol?
     var monitor: NetworkMonitorProtocol
     
     init(monitor: NetworkMonitorProtocol) {

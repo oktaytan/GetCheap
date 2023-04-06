@@ -39,7 +39,7 @@ final class NetworkMonitor: NetworkMonitorProtocol {
             case .satisfied:
                 self.status = .hasConnection
                 Notification.networkReachabilityChanged(status: .hasConnection)
-            case .unsatisfied, .requiresConnection:
+            case .unsatisfied:
                 self.status = .noConnection
                 Notification.networkReachabilityChanged(status: .noConnection)
             default:

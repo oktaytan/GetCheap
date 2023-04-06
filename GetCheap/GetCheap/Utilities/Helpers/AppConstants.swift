@@ -10,6 +10,6 @@ import Foundation
 struct AppConstants {
     
     static let APP_TITLE = "GetCheap"
-    static let BASE_API_URL = "https://api.disneyapi.dev"
+    static let SERVICE_HOST = "www.cheapshark.com"
     static let NETWORK_STATUS = "NetworkStatus"
 }

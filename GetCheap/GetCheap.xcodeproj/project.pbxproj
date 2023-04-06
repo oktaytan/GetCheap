@@ -7,9 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66C21B2F29DDE9C40063A5D9 /* DealListDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B2D29DDE9C40063A5D9 /* DealListDetailCell.swift */; };
+		66C21B3029DDE9C40063A5D9 /* DealListDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66C21B2E29DDE9C40063A5D9 /* DealListDetailCell.xib */; };
+		66C21B3229DDF3C70063A5D9 /* BadgeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B3129DDF3C70063A5D9 /* BadgeLabel.swift */; };
+		66C21B3429DE01190063A5D9 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B3329DE01190063A5D9 /* String+Ext.swift */; };
+		66C21B3B29DE1D6D0063A5D9 /* TimeInterval+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B3A29DE1D6D0063A5D9 /* TimeInterval+Ext.swift */; };
+		66C21B4829DE3AF20063A5D9 /* StoreDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B4729DE3AF20063A5D9 /* StoreDetailVC.swift */; };
+		66C21B4A29DE3B090063A5D9 /* StoreDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66C21B4929DE3B090063A5D9 /* StoreDetailVC.xib */; };
+		66C21B4C29DE3B220063A5D9 /* StoreDetailContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B4B29DE3B220063A5D9 /* StoreDetailContracts.swift */; };
+		66C21B4E29DE3C800063A5D9 /* StoreDetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B4D29DE3C800063A5D9 /* StoreDetailEntity.swift */; };
+		66C21B5029DE3D960063A5D9 /* StoreDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B4F29DE3D960063A5D9 /* StoreDetailInteractor.swift */; };
+		66C21B5229DE40420063A5D9 /* StoreDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B5129DE40420063A5D9 /* StoreDetailPresenter.swift */; };
+		66C21B5429DE442A0063A5D9 /* StoreDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B5329DE442A0063A5D9 /* StoreDetailRouter.swift */; };
+		66C21B5629DE45F60063A5D9 /* StoreDetailCollectionViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B5529DE45F60063A5D9 /* StoreDetailCollectionViewProvider.swift */; };
+		66C21B5A29DE480F0063A5D9 /* StoreDetailEmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B5829DE480F0063A5D9 /* StoreDetailEmptyCell.swift */; };
+		66C21B5B29DE480F0063A5D9 /* StoreDetailEmptyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66C21B5929DE480F0063A5D9 /* StoreDetailEmptyCell.xib */; };
+		66C21B5D29DE53230063A5D9 /* StoreListContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B5C29DE53230063A5D9 /* StoreListContracts.swift */; };
+		66C21B5F29DE539D0063A5D9 /* StoreListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B5E29DE539D0063A5D9 /* StoreListEntity.swift */; };
+		66C21B6129DE54570063A5D9 /* StoreListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B6029DE54570063A5D9 /* StoreListInteractor.swift */; };
+		66C21B6329DE55640063A5D9 /* StoreListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B6229DE55640063A5D9 /* StoreListPresenter.swift */; };
+		66C21B6529DE55EF0063A5D9 /* StoreListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B6429DE55EF0063A5D9 /* StoreListRouter.swift */; };
+		66C21B6729DE56C60063A5D9 /* StoreListTableViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B6629DE56C60063A5D9 /* StoreListTableViewProvider.swift */; };
+		66C21B6A29DE580C0063A5D9 /* StoreListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B6829DE580C0063A5D9 /* StoreListItemCell.swift */; };
+		66C21B6B29DE580C0063A5D9 /* StoreListItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66C21B6929DE580C0063A5D9 /* StoreListItemCell.xib */; };
+		66C21B6D29DE64040063A5D9 /* SettingsContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B6C29DE64040063A5D9 /* SettingsContracts.swift */; };
+		66C21B6F29DE64820063A5D9 /* SettingsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B6E29DE64820063A5D9 /* SettingsInteractor.swift */; };
+		66C21B7129DE64B50063A5D9 /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B7029DE64B50063A5D9 /* SettingsPresenter.swift */; };
+		66C21B7329DE65300063A5D9 /* SettingsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B7229DE65300063A5D9 /* SettingsEntity.swift */; };
+		66C21B7529DE65410063A5D9 /* SettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C21B7429DE65410063A5D9 /* SettingsRouter.swift */; };
 		66CA793E29DB784900AB4980 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA793D29DB784900AB4980 /* AppDelegate.swift */; };
 		66CA794029DB784900AB4980 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA793F29DB784900AB4980 /* SceneDelegate.swift */; };
-		66CA794229DB784900AB4980 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA794129DB784900AB4980 /* ViewController.swift */; };
 		66CA794729DB784A00AB4980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CA794629DB784A00AB4980 /* Assets.xcassets */; };
 		66CA794A29DB784A00AB4980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CA794829DB784A00AB4980 /* LaunchScreen.storyboard */; };
 		66CA796629DB849D00AB4980 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA795629DB849D00AB4980 /* UICollectionView+Ext.swift */; };
@@ -33,14 +60,14 @@
 		66CA798129DB9A5700AB4980 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 66CA798029DB9A5700AB4980 /* Lottie */; };
 		66CA798329DB9C1500AB4980 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 66CA798229DB9C1500AB4980 /* loading.json */; };
 		66CA798629DBA3BE00AB4980 /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA798429DBA3BE00AB4980 /* MainTabBarVC.swift */; };
-		66CA798B29DBA4C700AB4980 /* DealVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA798A29DBA4C700AB4980 /* DealVC.swift */; };
-		66CA798D29DBA4EB00AB4980 /* DealVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66CA798C29DBA4EB00AB4980 /* DealVC.xib */; };
-		66CA799129DBAF4A00AB4980 /* GameVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66CA799029DBAF4A00AB4980 /* GameVC.xib */; };
-		66CA799329DBAF5200AB4980 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA799229DBAF5200AB4980 /* GameVC.swift */; };
-		66CA799629DBAF9E00AB4980 /* StoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA799529DBAF9E00AB4980 /* StoreVC.swift */; };
-		66CA799829DBAFA500AB4980 /* StoreVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66CA799729DBAFA500AB4980 /* StoreVC.xib */; };
-		66CA799B29DBAFF700AB4980 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA799A29DBAFF700AB4980 /* SettingVC.swift */; };
-		66CA799D29DBB01600AB4980 /* SettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66CA799C29DBB01600AB4980 /* SettingVC.xib */; };
+		66CA798B29DBA4C700AB4980 /* DealListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA798A29DBA4C700AB4980 /* DealListVC.swift */; };
+		66CA798D29DBA4EB00AB4980 /* DealListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66CA798C29DBA4EB00AB4980 /* DealListVC.xib */; };
+		66CA799129DBAF4A00AB4980 /* GameListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66CA799029DBAF4A00AB4980 /* GameListVC.xib */; };
+		66CA799329DBAF5200AB4980 /* GameListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA799229DBAF5200AB4980 /* GameListVC.swift */; };
+		66CA799629DBAF9E00AB4980 /* StoreListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA799529DBAF9E00AB4980 /* StoreListVC.swift */; };
+		66CA799829DBAFA500AB4980 /* StoreListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66CA799729DBAFA500AB4980 /* StoreListVC.xib */; };
+		66CA799B29DBAFF700AB4980 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA799A29DBAFF700AB4980 /* SettingsVC.swift */; };
+		66CA799D29DBB01600AB4980 /* SettingsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66CA799C29DBB01600AB4980 /* SettingsVC.xib */; };
 		66CA799F29DBB3A300AB4980 /* MainTabBarContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA799E29DBB3A300AB4980 /* MainTabBarContracts.swift */; };
 		66CA79A129DBB85200AB4980 /* MainTabBarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA79A029DBB85200AB4980 /* MainTabBarInteractor.swift */; };
 		66CA79A329DBB88100AB4980 /* MainTabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA79A229DBB88100AB4980 /* MainTabBarPresenter.swift */; };
@@ -49,13 +76,61 @@
 		66CA79AE29DBCE8000AB4980 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA79AD29DBCE8000AB4980 /* BaseTabBarController.swift */; };
 		66DACC6D29DC9B4C00D0251D /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DACC6C29DC9B4C00D0251D /* NetworkMonitor.swift */; };
 		66DACC6F29DC9E9B00D0251D /* Notification+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DACC6E29DC9E9B00D0251D /* Notification+Ext.swift */; };
+		66DACC7529DCAF2000D0251D /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DACC7429DCAF2000D0251D /* Endpoint.swift */; };
+		66DACC7729DCAF2D00D0251D /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DACC7629DCAF2D00D0251D /* HTTPClient.swift */; };
+		66DACC7B29DCAF4B00D0251D /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DACC7A29DCAF4B00D0251D /* RequestError.swift */; };
+		66DACC7D29DCB5C200D0251D /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DACC7C29DCB5C200D0251D /* RequestMethod.swift */; };
+		66DACC8029DCB70100D0251D /* Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DACC7F29DCB70100D0251D /* Deal.swift */; };
+		66DACC8229DCB88A00D0251D /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DACC8129DCB88A00D0251D /* Game.swift */; };
+		66DACC8429DCBA3B00D0251D /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DACC8329DCBA3B00D0251D /* Store.swift */; };
+		66DACC8A29DCBEA100D0251D /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DACC8929DCBEA100D0251D /* APIEndpoint.swift */; };
+		66DACC8C29DCC3D100D0251D /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DACC8B29DCC3D100D0251D /* APIService.swift */; };
+		66DACC9129DCD00300D0251D /* DealListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DACC9029DCD00300D0251D /* DealListEntity.swift */; };
+		66DACC9729DCD9A700D0251D /* DealListContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DACC9629DCD9A700D0251D /* DealListContracts.swift */; };
+		66DACC9929DCDE5F00D0251D /* DealListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DACC9829DCDE5F00D0251D /* DealListInteractor.swift */; };
+		66DACC9D29DCE3DB00D0251D /* DealListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DACC9C29DCE3DB00D0251D /* DealListPresenter.swift */; };
+		66DACC9F29DCE8B300D0251D /* DealListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DACC9E29DCE8B300D0251D /* DealListRouter.swift */; };
+		66DACCA129DD1A4000D0251D /* DealListTableViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DACCA029DD1A4000D0251D /* DealListTableViewProvider.swift */; };
+		66DACCA629DD1FAC00D0251D /* EmptyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DACCA429DD1FAC00D0251D /* EmptyTableViewCell.swift */; };
+		66DACCA729DD1FAC00D0251D /* EmptyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66DACCA529DD1FAC00D0251D /* EmptyTableViewCell.xib */; };
+		66DACCAA29DD240900D0251D /* DealListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DACCA829DD240900D0251D /* DealListItemCell.swift */; };
+		66DACCAB29DD240900D0251D /* DealListItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66DACCA929DD240900D0251D /* DealListItemCell.xib */; };
+		66DACCAD29DD290800D0251D /* UIImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DACCAC29DD290800D0251D /* UIImageView+Ext.swift */; };
+		66DACCB029DD2B5900D0251D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 66DACCAF29DD2B5900D0251D /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66C21B2D29DDE9C40063A5D9 /* DealListDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealListDetailCell.swift; sourceTree = "<group>"; };
+		66C21B2E29DDE9C40063A5D9 /* DealListDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealListDetailCell.xib; sourceTree = "<group>"; };
+		66C21B3129DDF3C70063A5D9 /* BadgeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeLabel.swift; sourceTree = "<group>"; };
+		66C21B3329DE01190063A5D9 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		66C21B3A29DE1D6D0063A5D9 /* TimeInterval+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Ext.swift"; sourceTree = "<group>"; };
+		66C21B4729DE3AF20063A5D9 /* StoreDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailVC.swift; sourceTree = "<group>"; };
+		66C21B4929DE3B090063A5D9 /* StoreDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreDetailVC.xib; sourceTree = "<group>"; };
+		66C21B4B29DE3B220063A5D9 /* StoreDetailContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailContracts.swift; sourceTree = "<group>"; };
+		66C21B4D29DE3C800063A5D9 /* StoreDetailEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailEntity.swift; sourceTree = "<group>"; };
+		66C21B4F29DE3D960063A5D9 /* StoreDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailInteractor.swift; sourceTree = "<group>"; };
+		66C21B5129DE40420063A5D9 /* StoreDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailPresenter.swift; sourceTree = "<group>"; };
+		66C21B5329DE442A0063A5D9 /* StoreDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailRouter.swift; sourceTree = "<group>"; };
+		66C21B5529DE45F60063A5D9 /* StoreDetailCollectionViewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailCollectionViewProvider.swift; sourceTree = "<group>"; };
+		66C21B5829DE480F0063A5D9 /* StoreDetailEmptyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailEmptyCell.swift; sourceTree = "<group>"; };
+		66C21B5929DE480F0063A5D9 /* StoreDetailEmptyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreDetailEmptyCell.xib; sourceTree = "<group>"; };
+		66C21B5C29DE53230063A5D9 /* StoreListContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListContracts.swift; sourceTree = "<group>"; };
+		66C21B5E29DE539D0063A5D9 /* StoreListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListEntity.swift; sourceTree = "<group>"; };
+		66C21B6029DE54570063A5D9 /* StoreListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListInteractor.swift; sourceTree = "<group>"; };
+		66C21B6229DE55640063A5D9 /* StoreListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListPresenter.swift; sourceTree = "<group>"; };
+		66C21B6429DE55EF0063A5D9 /* StoreListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListRouter.swift; sourceTree = "<group>"; };
+		66C21B6629DE56C60063A5D9 /* StoreListTableViewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListTableViewProvider.swift; sourceTree = "<group>"; };
+		66C21B6829DE580C0063A5D9 /* StoreListItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListItemCell.swift; sourceTree = "<group>"; };
+		66C21B6929DE580C0063A5D9 /* StoreListItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreListItemCell.xib; sourceTree = "<group>"; };
+		66C21B6C29DE64040063A5D9 /* SettingsContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsContracts.swift; sourceTree = "<group>"; };
+		66C21B6E29DE64820063A5D9 /* SettingsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsInteractor.swift; sourceTree = "<group>"; };
+		66C21B7029DE64B50063A5D9 /* SettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
+		66C21B7229DE65300063A5D9 /* SettingsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsEntity.swift; sourceTree = "<group>"; };
+		66C21B7429DE65410063A5D9 /* SettingsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRouter.swift; sourceTree = "<group>"; };
 		66CA793A29DB784900AB4980 /* GetCheap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetCheap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CA793D29DB784900AB4980 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66CA793F29DB784900AB4980 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		66CA794129DB784900AB4980 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		66CA794629DB784A00AB4980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66CA794929DB784A00AB4980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66CA794B29DB784A00AB4980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,14 +153,14 @@
 		66CA797D29DB8D8800AB4980 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		66CA798229DB9C1500AB4980 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
 		66CA798429DBA3BE00AB4980 /* MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
-		66CA798A29DBA4C700AB4980 /* DealVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealVC.swift; sourceTree = "<group>"; };
-		66CA798C29DBA4EB00AB4980 /* DealVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealVC.xib; sourceTree = "<group>"; };
-		66CA799029DBAF4A00AB4980 /* GameVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameVC.xib; sourceTree = "<group>"; };
-		66CA799229DBAF5200AB4980 /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
-		66CA799529DBAF9E00AB4980 /* StoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreVC.swift; sourceTree = "<group>"; };
-		66CA799729DBAFA500AB4980 /* StoreVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreVC.xib; sourceTree = "<group>"; };
-		66CA799A29DBAFF700AB4980 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
-		66CA799C29DBB01600AB4980 /* SettingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingVC.xib; sourceTree = "<group>"; };
+		66CA798A29DBA4C700AB4980 /* DealListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealListVC.swift; sourceTree = "<group>"; };
+		66CA798C29DBA4EB00AB4980 /* DealListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealListVC.xib; sourceTree = "<group>"; };
+		66CA799029DBAF4A00AB4980 /* GameListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameListVC.xib; sourceTree = "<group>"; };
+		66CA799229DBAF5200AB4980 /* GameListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListVC.swift; sourceTree = "<group>"; };
+		66CA799529DBAF9E00AB4980 /* StoreListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListVC.swift; sourceTree = "<group>"; };
+		66CA799729DBAFA500AB4980 /* StoreListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreListVC.xib; sourceTree = "<group>"; };
+		66CA799A29DBAFF700AB4980 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		66CA799C29DBB01600AB4980 /* SettingsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsVC.xib; sourceTree = "<group>"; };
 		66CA799E29DBB3A300AB4980 /* MainTabBarContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarContracts.swift; sourceTree = "<group>"; };
 		66CA79A029DBB85200AB4980 /* MainTabBarInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarInteractor.swift; sourceTree = "<group>"; };
 		66CA79A229DBB88100AB4980 /* MainTabBarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarPresenter.swift; sourceTree = "<group>"; };
@@ -94,6 +169,26 @@
 		66CA79AD29DBCE8000AB4980 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 		66DACC6C29DC9B4C00D0251D /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 		66DACC6E29DC9E9B00D0251D /* Notification+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Ext.swift"; sourceTree = "<group>"; };
+		66DACC7429DCAF2000D0251D /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		66DACC7629DCAF2D00D0251D /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		66DACC7A29DCAF4B00D0251D /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
+		66DACC7C29DCB5C200D0251D /* RequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMethod.swift; sourceTree = "<group>"; };
+		66DACC7F29DCB70100D0251D /* Deal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deal.swift; sourceTree = "<group>"; };
+		66DACC8129DCB88A00D0251D /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		66DACC8329DCBA3B00D0251D /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		66DACC8929DCBEA100D0251D /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		66DACC8B29DCC3D100D0251D /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		66DACC9029DCD00300D0251D /* DealListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealListEntity.swift; sourceTree = "<group>"; };
+		66DACC9629DCD9A700D0251D /* DealListContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealListContracts.swift; sourceTree = "<group>"; };
+		66DACC9829DCDE5F00D0251D /* DealListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealListInteractor.swift; sourceTree = "<group>"; };
+		66DACC9C29DCE3DB00D0251D /* DealListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealListPresenter.swift; sourceTree = "<group>"; };
+		66DACC9E29DCE8B300D0251D /* DealListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealListRouter.swift; sourceTree = "<group>"; };
+		66DACCA029DD1A4000D0251D /* DealListTableViewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealListTableViewProvider.swift; sourceTree = "<group>"; };
+		66DACCA429DD1FAC00D0251D /* EmptyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTableViewCell.swift; sourceTree = "<group>"; };
+		66DACCA529DD1FAC00D0251D /* EmptyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyTableViewCell.xib; sourceTree = "<group>"; };
+		66DACCA829DD240900D0251D /* DealListItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealListItemCell.swift; sourceTree = "<group>"; };
+		66DACCA929DD240900D0251D /* DealListItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealListItemCell.xib; sourceTree = "<group>"; };
+		66DACCAC29DD290800D0251D /* UIImageView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +196,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66DACCB029DD2B5900D0251D /* Kingfisher in Frameworks */,
 				66CA797929DB8B7700AB4980 /* SPIndicator in Frameworks */,
 				66CA798129DB9A5700AB4980 /* Lottie in Frameworks */,
 			);
@@ -109,6 +205,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66C21B4629DE3AC30063A5D9 /* StoreDetail */ = {
+			isa = PBXGroup;
+			children = (
+				66C21B4B29DE3B220063A5D9 /* StoreDetailContracts.swift */,
+				66C21B5529DE45F60063A5D9 /* StoreDetailCollectionViewProvider.swift */,
+				66C21B4929DE3B090063A5D9 /* StoreDetailVC.xib */,
+				66C21B4729DE3AF20063A5D9 /* StoreDetailVC.swift */,
+				66C21B4F29DE3D960063A5D9 /* StoreDetailInteractor.swift */,
+				66C21B5129DE40420063A5D9 /* StoreDetailPresenter.swift */,
+				66C21B4D29DE3C800063A5D9 /* StoreDetailEntity.swift */,
+				66C21B5329DE442A0063A5D9 /* StoreDetailRouter.swift */,
+			);
+			path = StoreDetail;
+			sourceTree = "<group>";
+		};
+		66C21B5729DE47F30063A5D9 /* StoreList */ = {
+			isa = PBXGroup;
+			children = (
+				66C21B6829DE580C0063A5D9 /* StoreListItemCell.swift */,
+				66C21B6929DE580C0063A5D9 /* StoreListItemCell.xib */,
+				66C21B5829DE480F0063A5D9 /* StoreDetailEmptyCell.swift */,
+				66C21B5929DE480F0063A5D9 /* StoreDetailEmptyCell.xib */,
+			);
+			path = StoreList;
+			sourceTree = "<group>";
+		};
 		66CA793129DB784900AB4980 = {
 			isa = PBXGroup;
 			children = (
@@ -129,7 +251,8 @@
 			isa = PBXGroup;
 			children = (
 				66CA795129DB7FB600AB4980 /* AppDelegate */,
-				66CA794129DB784900AB4980 /* ViewController.swift */,
+				66DACC7029DCAEE900D0251D /* Network */,
+				66DACC9229DCD32600D0251D /* Data */,
 				66CA798829DBA4B000AB4980 /* Scenes */,
 				66CA797A29DB8BAC00AB4980 /* Views */,
 				66CA795329DB849D00AB4980 /* Utilities */,
@@ -173,12 +296,15 @@
 			isa = PBXGroup;
 			children = (
 				66CA797329DB874200AB4980 /* UIImage+Ext.swift */,
+				66DACCAC29DD290800D0251D /* UIImageView+Ext.swift */,
 				66CA795629DB849D00AB4980 /* UICollectionView+Ext.swift */,
 				66CA795729DB849D00AB4980 /* UITableView+Ext.swift */,
 				66CA795829DB849D00AB4980 /* UIColor+Ext.swift */,
 				66CA795929DB849D00AB4980 /* NSObject+Ext.swift */,
 				66CA795A29DB849D00AB4980 /* UIView+Ext.swift */,
 				66DACC6E29DC9E9B00D0251D /* Notification+Ext.swift */,
+				66C21B3329DE01190063A5D9 /* String+Ext.swift */,
+				66C21B3A29DE1D6D0063A5D9 /* TimeInterval+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -211,7 +337,9 @@
 		66CA797A29DB8BAC00AB4980 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				66DACCA229DD1F8A00D0251D /* Cells */,
 				66CA797B29DB8BBF00AB4980 /* LoadingView.swift */,
+				66C21B3129DDF3C70063A5D9 /* BadgeLabel.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -220,21 +348,20 @@
 			isa = PBXGroup;
 			children = (
 				66CA798E29DBA4FE00AB4980 /* TabBar */,
-				66CA798929DBA4BA00AB4980 /* Deal */,
-				66CA798F29DBA69900AB4980 /* Game */,
-				66CA799429DBAF7F00AB4980 /* Store */,
-				66CA799929DBAFDE00AB4980 /* Setting */,
+				66CA798929DBA4BA00AB4980 /* Deals */,
+				66CA798F29DBA69900AB4980 /* Games */,
+				66CA799429DBAF7F00AB4980 /* Stores */,
+				66CA799929DBAFDE00AB4980 /* Settings */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
 		};
-		66CA798929DBA4BA00AB4980 /* Deal */ = {
+		66CA798929DBA4BA00AB4980 /* Deals */ = {
 			isa = PBXGroup;
 			children = (
-				66CA798A29DBA4C700AB4980 /* DealVC.swift */,
-				66CA798C29DBA4EB00AB4980 /* DealVC.xib */,
+				66DACC8D29DCCE3F00D0251D /* DeaList */,
 			);
-			path = Deal;
+			path = Deals;
 			sourceTree = "<group>";
 		};
 		66CA798E29DBA4FE00AB4980 /* TabBar */ = {
@@ -250,31 +377,35 @@
 			path = TabBar;
 			sourceTree = "<group>";
 		};
-		66CA798F29DBA69900AB4980 /* Game */ = {
+		66CA798F29DBA69900AB4980 /* Games */ = {
 			isa = PBXGroup;
 			children = (
-				66CA799229DBAF5200AB4980 /* GameVC.swift */,
-				66CA799029DBAF4A00AB4980 /* GameVC.xib */,
+				66DACC8E29DCCEDF00D0251D /* GameList */,
 			);
-			path = Game;
+			path = Games;
 			sourceTree = "<group>";
 		};
-		66CA799429DBAF7F00AB4980 /* Store */ = {
+		66CA799429DBAF7F00AB4980 /* Stores */ = {
 			isa = PBXGroup;
 			children = (
-				66CA799529DBAF9E00AB4980 /* StoreVC.swift */,
-				66CA799729DBAFA500AB4980 /* StoreVC.xib */,
+				66DACC8F29DCCF4100D0251D /* StoreList */,
+				66C21B4629DE3AC30063A5D9 /* StoreDetail */,
 			);
-			path = Store;
+			path = Stores;
 			sourceTree = "<group>";
 		};
-		66CA799929DBAFDE00AB4980 /* Setting */ = {
+		66CA799929DBAFDE00AB4980 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				66CA799A29DBAFF700AB4980 /* SettingVC.swift */,
-				66CA799C29DBB01600AB4980 /* SettingVC.xib */,
+				66C21B6C29DE64040063A5D9 /* SettingsContracts.swift */,
+				66CA799C29DBB01600AB4980 /* SettingsVC.xib */,
+				66CA799A29DBAFF700AB4980 /* SettingsVC.swift */,
+				66C21B6E29DE64820063A5D9 /* SettingsInteractor.swift */,
+				66C21B7029DE64B50063A5D9 /* SettingsPresenter.swift */,
+				66C21B7229DE65300063A5D9 /* SettingsEntity.swift */,
+				66C21B7429DE65410063A5D9 /* SettingsRouter.swift */,
 			);
-			path = Setting;
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		66CA79A829DBC23200AB4980 /* Managers */ = {
@@ -283,6 +414,106 @@
 				66DACC6C29DC9B4C00D0251D /* NetworkMonitor.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		66DACC7029DCAEE900D0251D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				66DACC7129DCAEF100D0251D /* Base */,
+				66DACC8929DCBEA100D0251D /* APIEndpoint.swift */,
+				66DACC8B29DCC3D100D0251D /* APIService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		66DACC7129DCAEF100D0251D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				66DACC7429DCAF2000D0251D /* Endpoint.swift */,
+				66DACC7629DCAF2D00D0251D /* HTTPClient.swift */,
+				66DACC7A29DCAF4B00D0251D /* RequestError.swift */,
+				66DACC7C29DCB5C200D0251D /* RequestMethod.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		66DACC7E29DCB6F500D0251D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				66DACC7F29DCB70100D0251D /* Deal.swift */,
+				66DACC8129DCB88A00D0251D /* Game.swift */,
+				66DACC8329DCBA3B00D0251D /* Store.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66DACC8D29DCCE3F00D0251D /* DeaList */ = {
+			isa = PBXGroup;
+			children = (
+				66DACC9629DCD9A700D0251D /* DealListContracts.swift */,
+				66DACCA029DD1A4000D0251D /* DealListTableViewProvider.swift */,
+				66CA798C29DBA4EB00AB4980 /* DealListVC.xib */,
+				66CA798A29DBA4C700AB4980 /* DealListVC.swift */,
+				66DACC9829DCDE5F00D0251D /* DealListInteractor.swift */,
+				66DACC9C29DCE3DB00D0251D /* DealListPresenter.swift */,
+				66DACC9029DCD00300D0251D /* DealListEntity.swift */,
+				66DACC9E29DCE8B300D0251D /* DealListRouter.swift */,
+			);
+			path = DeaList;
+			sourceTree = "<group>";
+		};
+		66DACC8E29DCCEDF00D0251D /* GameList */ = {
+			isa = PBXGroup;
+			children = (
+				66CA799229DBAF5200AB4980 /* GameListVC.swift */,
+				66CA799029DBAF4A00AB4980 /* GameListVC.xib */,
+			);
+			path = GameList;
+			sourceTree = "<group>";
+		};
+		66DACC8F29DCCF4100D0251D /* StoreList */ = {
+			isa = PBXGroup;
+			children = (
+				66C21B5C29DE53230063A5D9 /* StoreListContracts.swift */,
+				66C21B6629DE56C60063A5D9 /* StoreListTableViewProvider.swift */,
+				66CA799729DBAFA500AB4980 /* StoreListVC.xib */,
+				66CA799529DBAF9E00AB4980 /* StoreListVC.swift */,
+				66C21B6029DE54570063A5D9 /* StoreListInteractor.swift */,
+				66C21B6229DE55640063A5D9 /* StoreListPresenter.swift */,
+				66C21B5E29DE539D0063A5D9 /* StoreListEntity.swift */,
+				66C21B6429DE55EF0063A5D9 /* StoreListRouter.swift */,
+			);
+			path = StoreList;
+			sourceTree = "<group>";
+		};
+		66DACC9229DCD32600D0251D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				66DACC7E29DCB6F500D0251D /* Model */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		66DACCA229DD1F8A00D0251D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				66DACCA429DD1FAC00D0251D /* EmptyTableViewCell.swift */,
+				66DACCA529DD1FAC00D0251D /* EmptyTableViewCell.xib */,
+				66DACCA329DD1F9400D0251D /* DealList */,
+				66C21B5729DE47F30063A5D9 /* StoreList */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		66DACCA329DD1F9400D0251D /* DealList */ = {
+			isa = PBXGroup;
+			children = (
+				66DACCA829DD240900D0251D /* DealListItemCell.swift */,
+				66DACCA929DD240900D0251D /* DealListItemCell.xib */,
+				66C21B2D29DDE9C40063A5D9 /* DealListDetailCell.swift */,
+				66C21B2E29DDE9C40063A5D9 /* DealListDetailCell.xib */,
+			);
+			path = DealList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +535,7 @@
 			packageProductDependencies = (
 				66CA797829DB8B7700AB4980 /* SPIndicator */,
 				66CA798029DB9A5700AB4980 /* Lottie */,
+				66DACCAF29DD2B5900D0251D /* Kingfisher */,
 			);
 			productName = GetCheap;
 			productReference = 66CA793A29DB784900AB4980 /* GetCheap.app */;
@@ -336,6 +568,7 @@
 			packageReferences = (
 				66CA797729DB8B7700AB4980 /* XCRemoteSwiftPackageReference "SPIndicator" */,
 				66CA797F29DB9A5700AB4980 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				66DACCAE29DD2B5900D0251D /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 66CA793B29DB784900AB4980 /* Products */;
 			projectDirPath = "";
@@ -351,13 +584,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66CA799829DBAFA500AB4980 /* StoreVC.xib in Resources */,
+				66C21B5B29DE480F0063A5D9 /* StoreDetailEmptyCell.xib in Resources */,
+				66C21B3029DDE9C40063A5D9 /* DealListDetailCell.xib in Resources */,
+				66C21B4A29DE3B090063A5D9 /* StoreDetailVC.xib in Resources */,
+				66CA799829DBAFA500AB4980 /* StoreListVC.xib in Resources */,
 				66CA794A29DB784A00AB4980 /* LaunchScreen.storyboard in Resources */,
-				66CA799129DBAF4A00AB4980 /* GameVC.xib in Resources */,
-				66CA798D29DBA4EB00AB4980 /* DealVC.xib in Resources */,
+				66CA799129DBAF4A00AB4980 /* GameListVC.xib in Resources */,
+				66C21B6B29DE580C0063A5D9 /* StoreListItemCell.xib in Resources */,
+				66CA798D29DBA4EB00AB4980 /* DealListVC.xib in Resources */,
 				66CA794729DB784A00AB4980 /* Assets.xcassets in Resources */,
-				66CA799D29DBB01600AB4980 /* SettingVC.xib in Resources */,
+				66CA799D29DBB01600AB4980 /* SettingsVC.xib in Resources */,
+				66DACCAB29DD240900D0251D /* DealListItemCell.xib in Resources */,
 				66CA798329DB9C1500AB4980 /* loading.json in Resources */,
+				66DACCA729DD1FAC00D0251D /* EmptyTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,37 +609,78 @@
 			files = (
 				66CA79AE29DBCE8000AB4980 /* BaseTabBarController.swift in Sources */,
 				66CA796829DB849D00AB4980 /* UIColor+Ext.swift in Sources */,
+				66C21B6329DE55640063A5D9 /* StoreListPresenter.swift in Sources */,
 				66CA796B29DB849D00AB4980 /* AppDesign.swift in Sources */,
+				66C21B6729DE56C60063A5D9 /* StoreListTableViewProvider.swift in Sources */,
 				66CA797E29DB8D8800AB4980 /* ImageLoader.swift in Sources */,
+				66DACC8A29DCBEA100D0251D /* APIEndpoint.swift in Sources */,
+				66C21B7329DE65300063A5D9 /* SettingsEntity.swift in Sources */,
 				66DACC6F29DC9E9B00D0251D /* Notification+Ext.swift in Sources */,
+				66DACCA629DD1FAC00D0251D /* EmptyTableViewCell.swift in Sources */,
 				66CA797029DB849D00AB4980 /* BaseTableViewProvider.swift in Sources */,
 				66CA798629DBA3BE00AB4980 /* MainTabBarVC.swift in Sources */,
+				66DACCAD29DD290800D0251D /* UIImageView+Ext.swift in Sources */,
 				66CA796929DB849D00AB4980 /* NSObject+Ext.swift in Sources */,
-				66CA799629DBAF9E00AB4980 /* StoreVC.swift in Sources */,
+				66DACC9F29DCE8B300D0251D /* DealListRouter.swift in Sources */,
+				66C21B4829DE3AF20063A5D9 /* StoreDetailVC.swift in Sources */,
+				66DACC7B29DCAF4B00D0251D /* RequestError.swift in Sources */,
+				66C21B6D29DE64040063A5D9 /* SettingsContracts.swift in Sources */,
+				66CA799629DBAF9E00AB4980 /* StoreListVC.swift in Sources */,
 				66CA796C29DB849D00AB4980 /* AppConstants.swift in Sources */,
+				66DACC8029DCB70100D0251D /* Deal.swift in Sources */,
 				66CA79A129DBB85200AB4980 /* MainTabBarInteractor.swift in Sources */,
+				66C21B6A29DE580C0063A5D9 /* StoreListItemCell.swift in Sources */,
 				66CA796D29DB849D00AB4980 /* BaseViewController.swift in Sources */,
-				66CA799329DBAF5200AB4980 /* GameVC.swift in Sources */,
-				66CA794229DB784900AB4980 /* ViewController.swift in Sources */,
+				66C21B6F29DE64820063A5D9 /* SettingsInteractor.swift in Sources */,
+				66CA799329DBAF5200AB4980 /* GameListVC.swift in Sources */,
 				66CA793E29DB784900AB4980 /* AppDelegate.swift in Sources */,
+				66C21B2F29DDE9C40063A5D9 /* DealListDetailCell.swift in Sources */,
+				66C21B5F29DE539D0063A5D9 /* StoreListEntity.swift in Sources */,
+				66DACC8229DCB88A00D0251D /* Game.swift in Sources */,
 				66CA797629DB888800AB4980 /* ImageCache.swift in Sources */,
 				66CA796F29DB849D00AB4980 /* BaseCollectionViewProvider.swift in Sources */,
 				66CA79A729DBBE3D00AB4980 /* MainTabBarEntity.swift in Sources */,
 				66CA796A29DB849D00AB4980 /* UIView+Ext.swift in Sources */,
+				66C21B5229DE40420063A5D9 /* StoreDetailPresenter.swift in Sources */,
 				66CA796729DB849D00AB4980 /* UITableView+Ext.swift in Sources */,
 				66CA794029DB784900AB4980 /* SceneDelegate.swift in Sources */,
-				66CA799B29DBAFF700AB4980 /* SettingVC.swift in Sources */,
+				66CA799B29DBAFF700AB4980 /* SettingsVC.swift in Sources */,
+				66C21B4C29DE3B220063A5D9 /* StoreDetailContracts.swift in Sources */,
+				66C21B5A29DE480F0063A5D9 /* StoreDetailEmptyCell.swift in Sources */,
+				66DACC9929DCDE5F00D0251D /* DealListInteractor.swift in Sources */,
 				66CA799F29DBB3A300AB4980 /* MainTabBarContracts.swift in Sources */,
 				66DACC6D29DC9B4C00D0251D /* NetworkMonitor.swift in Sources */,
 				66CA796629DB849D00AB4980 /* UICollectionView+Ext.swift in Sources */,
+				66C21B5D29DE53230063A5D9 /* StoreListContracts.swift in Sources */,
+				66C21B5629DE45F60063A5D9 /* StoreDetailCollectionViewProvider.swift in Sources */,
+				66C21B5029DE3D960063A5D9 /* StoreDetailInteractor.swift in Sources */,
+				66DACC9D29DCE3DB00D0251D /* DealListPresenter.swift in Sources */,
+				66DACC7D29DCB5C200D0251D /* RequestMethod.swift in Sources */,
+				66C21B3229DDF3C70063A5D9 /* BadgeLabel.swift in Sources */,
 				66CA797229DB849D00AB4980 /* BaseNavigationController.swift in Sources */,
 				66CA797429DB874200AB4980 /* UIImage+Ext.swift in Sources */,
+				66C21B4E29DE3C800063A5D9 /* StoreDetailEntity.swift in Sources */,
+				66C21B6129DE54570063A5D9 /* StoreListInteractor.swift in Sources */,
+				66DACCAA29DD240900D0251D /* DealListItemCell.swift in Sources */,
 				66CA797129DB849D00AB4980 /* ObservationType.swift in Sources */,
+				66C21B6529DE55EF0063A5D9 /* StoreListRouter.swift in Sources */,
+				66DACC8C29DCC3D100D0251D /* APIService.swift in Sources */,
+				66C21B3B29DE1D6D0063A5D9 /* TimeInterval+Ext.swift in Sources */,
 				66CA79A529DBBB0900AB4980 /* MainTabBarRouter.swift in Sources */,
+				66C21B7129DE64B50063A5D9 /* SettingsPresenter.swift in Sources */,
 				66CA797C29DB8BBF00AB4980 /* LoadingView.swift in Sources */,
 				66CA79A329DBB88100AB4980 /* MainTabBarPresenter.swift in Sources */,
-				66CA798B29DBA4C700AB4980 /* DealVC.swift in Sources */,
+				66C21B3429DE01190063A5D9 /* String+Ext.swift in Sources */,
+				66C21B5429DE442A0063A5D9 /* StoreDetailRouter.swift in Sources */,
+				66C21B7529DE65410063A5D9 /* SettingsRouter.swift in Sources */,
+				66DACC8429DCBA3B00D0251D /* Store.swift in Sources */,
+				66CA798B29DBA4C700AB4980 /* DealListVC.swift in Sources */,
+				66DACCA129DD1A4000D0251D /* DealListTableViewProvider.swift in Sources */,
+				66DACC7529DCAF2000D0251D /* Endpoint.swift in Sources */,
+				66DACC7729DCAF2D00D0251D /* HTTPClient.swift in Sources */,
+				66DACC9729DCD9A700D0251D /* DealListContracts.swift in Sources */,
 				66CA796E29DB849D00AB4980 /* BaseCustomView.swift in Sources */,
+				66DACC9129DCD00300D0251D /* DealListEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -634,6 +914,14 @@
 				minimumVersion = 4.0.0;
 			};
 		};
+		66DACCAE29DD2B5900D0251D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -646,6 +934,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 66CA797F29DB9A5700AB4980 /* XCRemoteSwiftPackageReference "lottie-spm" */;
 			productName = Lottie;
+		};
+		66DACCAF29DD2B5900D0251D /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66DACCAE29DD2B5900D0251D /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

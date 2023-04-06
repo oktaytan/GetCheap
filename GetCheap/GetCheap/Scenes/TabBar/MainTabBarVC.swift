@@ -52,7 +52,7 @@ extension MainTabBarVC: TabBarPresenterToViewProtocol {
         case .networkReachability(let status):
             switch status {
             case .hasConnection:
-                showToastMessage(title: AppConstants.APP_TITLE, message: status.rawValue, preset: .done)
+                break
             case .noConnection:
                 showAlert(title: AppConstants.APP_TITLE, message: status.rawValue)
             }

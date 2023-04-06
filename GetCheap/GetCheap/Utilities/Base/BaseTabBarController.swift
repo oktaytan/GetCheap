@@ -12,6 +12,11 @@ class BaseTabBarController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setTabBarUI()
+    }
+    
+    private func setTabBarUI() {
+        tabBar.backgroundColor = .grayLight
     }
     
     func showToastMessage(title: String?, message: String?, preset: SPIndicatorIconPreset) {

@@ -12,13 +12,7 @@
   <li><a href="#about-the-project">About The Project</a></li>
   <li><a href="#screenshots">Screenshots</a></li>
   <li><a href="#built-with">Built With</a></li>
-  <li>
-    <a href="#getting-started">Getting Started</a>
-    <ul>
-      <li><a href="#prerequisites">Prerequisites</a></li>
-      <li><a href="#installation">Installation</a></li>
-    </ul>
-  </li>
+  <li><a href="#installation">Installation</a></li>
 </ol>
 <br />
 
@@ -59,35 +53,19 @@ Kingfisher library was used for downloading and caching images.
 
 * Swift, UIKit, VIPER
 * Kingfisher - Image download and caches
+* Lottie-ios - Loading animation
+* SPIndicator - Toast message
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-In order to run the application, the following steps must be followed.
-
-### Prerequisites
-
-The app's dependencies must be installed with CocoaPods. Therefore, CocoaPods must be installed on your local computer. The current Xcode version is required to run the project.
-
-* CocoaPods installation on terminal
-  ```sh
-  sudo gem install cocoapods
-  ```
-
-### Installation
+<!-- INSTALLATION -->
+## Installation
 
 1. Clone the repo
    ```sh
    git clone https://github.com/oktaytan/GetCheap.git
    ```
-2. Install Pods packages
-   ```sh
-   pod install
-   ```
-3. Run project with Xcode
+2. Run project with Xcode
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

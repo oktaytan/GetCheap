@@ -27,6 +27,8 @@ When any deal is pressed, the application will navigate to that deal's website. 
 Providers have been added to fulfill the responsibilities of TableView and CollectionView structures in the Controller in the application. Each provider performs the TableView or CollectionView operations it is responsible for and notifies the Controller with the help of an event.
 
 Kingfisher library was used for downloading and caching images.
+lottie-ios library was used for loading animations.
+SPIndicator library was used for toast messages.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

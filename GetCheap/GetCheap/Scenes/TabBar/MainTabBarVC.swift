@@ -21,6 +21,7 @@ class MainTabBarVC: BaseTabBarController {
         view.backgroundColor = .white
         UITabBar.appearance().isTranslucent = true
         tabBar.tintColor = .blueSoft
+        UIApplication.shared.statusBarUIView?.backgroundColor = .grayLight
     }
 
     private func createNavController(for item: TabItemType) -> BaseNavigationController {

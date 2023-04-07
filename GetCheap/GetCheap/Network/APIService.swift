@@ -13,6 +13,7 @@ protocol APIServiceable {
     
     func getGames(title: String) async -> Result<[Game], RequestError>
     func getGameLookup(gameID: String) async -> Result<GameLookup, RequestError>
+    func getMultipleGameLookup(gameIDs: [String]) async -> Result<[MultipleGameItem], RequestError>
     
     func getStores() async -> Result<[Store], RequestError>
 }
@@ -32,6 +33,11 @@ struct APIService: HTTPCLient, APIServiceable {
     
     func getGameLookup(gameID: String) async -> Result<GameLookup, RequestError> {
         return await sendRequest(endpoint: APIEndpoint.gameLookup(gameID: gameID), model: GameLookup.self)
+    }
+    
+    func getMultipleGameLookup(gameIDs: [String]) async -> Result<[MultipleGameItem], RequestError> {
+        let gameIDs = gameIDs.joined(separator: ",")
+        return await sendRequest(endpoint: APIEndpoint.multipleGameLookup(gameIDs: gameIDs), model: [MultipleGameItem].self)
     }
     
     func getStores() async -> Result<[Store], RequestError> {

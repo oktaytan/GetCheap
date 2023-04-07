@@ -9,7 +9,8 @@ import Foundation
 
 // MARK: - Game
 struct Game: Codable {
-    let gameID, steamAppID, cheapest, cheapestDealID: String
+    let gameID, cheapest, cheapestDealID: String
+    let steamAppID: String?
     let external, internalName: String
     let thumb: String
 }
@@ -39,3 +40,24 @@ struct Info: Codable {
     let steamAppID: String?
     let thumb: String
 }
+
+// MARK: - MultipleGameItem
+struct MultipleGameItem: Codable {
+    let info: MultipleGameInfo
+    let cheapestPriceEver: CheapestPriceEver
+    let deals: [MultipleGameDeal]
+}
+
+// MARK: - MultipleGameInfo
+struct MultipleGameInfo: Codable {
+    let gameID, title: String
+    let steamAppID: String?
+    let thumb: String
+}
+
+// MARK: - MultipleGameDeal
+struct MultipleGameDeal: Codable {
+    let storeID, dealID, price, retailPrice: String
+    let savings: String
+}
+

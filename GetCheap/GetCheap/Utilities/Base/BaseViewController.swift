@@ -81,7 +81,8 @@ class BaseViewController: UIViewController {
     // Ekrandaki loading animasyonunu kaldırır.
     private func hideLoading() {
         DispatchQueue.main.async { [weak self] in
-            self?.loadingView.dismiss(animated: true)
+            guard let loadingView = self?.presentedViewController as? LoadingView else { return }
+            loadingView.dismiss(animated: true)
         }
     }
     

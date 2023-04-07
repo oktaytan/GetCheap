@@ -35,7 +35,6 @@ final class StoreDetailRouter: StoreDetailPresenterToRouterProtocol {
 
 extension StoreDetailRouter {
     private func goToDealDetail(dealID: String) {
-        guard let url = URL(string: "https://\(AppConstants.SERVICE_HOST)/redirect?dealID=\(dealID)") else { return }
-        UIApplication.shared.open(url)
+        UIApplication.shared.goToDeal(dealID: dealID)
     }
 }

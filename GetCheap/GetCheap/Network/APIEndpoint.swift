@@ -13,6 +13,7 @@ enum APIEndpoint {
     case dealLookup(dealID: String)
     case gameList(title: String)
     case gameLookup(gameID: String)
+    case multipleGameLookup(gameIDs: String)
     case storeList
 }
 
@@ -24,7 +25,7 @@ extension APIEndpoint: Endpoint {
     var path: String {
         switch self {
         case .dealList, .dealLookup: return version + "/deals"
-        case .gameList, .gameLookup: return version + "/games"
+        case .gameList, .gameLookup, .multipleGameLookup: return version + "/games"
         case .storeList: return version + "/stores"
         }
     }
@@ -39,6 +40,8 @@ extension APIEndpoint: Endpoint {
             return ["title": title]
         case .gameLookup(let gameID):
             return ["id": gameID]
+        case .multipleGameLookup(let gameIDs):
+            return ["ids": gameIDs, "format": "array"]
         case .storeList:
             return nil
         }
@@ -46,19 +49,19 @@ extension APIEndpoint: Endpoint {
     
     var method: RequestMethod {
         switch self {
-        case .dealList, .dealLookup, .gameList, .gameLookup, .storeList: return .get
+        case .dealList, .dealLookup, .gameList, .gameLookup, .multipleGameLookup, .storeList: return .get
         }
     }
     
     var header: [String : String]? {
         switch self {
-        case .dealList, .dealLookup, .gameList, .gameLookup, .storeList: return nil
+        case .dealList, .dealLookup, .gameList, .gameLookup, .multipleGameLookup, .storeList: return nil
         }
     }
     
     var body: [String : String]? {
         switch self {
-        case .dealList, .dealLookup, .gameList, .gameLookup, .storeList: return nil
+        case .dealList, .dealLookup, .gameList, .gameLookup, .multipleGameLookup, .storeList: return nil
         }
     }
 }

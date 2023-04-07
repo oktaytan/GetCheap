@@ -25,7 +25,7 @@ enum TabItemType: String, CaseIterable {
         case .deals:
             return DealListRouter.createModule()
         case .games:
-            return GameListVC(nibName: GameListVC.className, bundle: nil)
+            return GameListRouter.createModule()
         case .stores:
             return StoreListRouter.createModule()
         case .settings:

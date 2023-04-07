@@ -46,8 +46,9 @@ class StoreListItemCell: UITableViewCell {
             
             self?.activeLabel.text = data.isActive ? "Active" : "Deactive"
             
-            let color: UIColor = data.isActive ? .blueSoft : .yellowSoft
+            let color: UIColor = data.isActive ? .blueSoft : .grayDark
             self?.containerView.layer.borderColor = color.cgColor
+            self?.containerView.layer.borderWidth = data.isActive ? 2.0 : 0.5
             self?.activeLabel.textColor = color
             self?.activeDotView.backgroundColor = color
         }

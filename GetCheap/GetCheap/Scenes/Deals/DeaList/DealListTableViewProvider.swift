@@ -25,7 +25,7 @@ final class DealListTableViewProviderImpl: NSObject, TableViewProvider, DealList
     private var tableView: UITableView?
     
     /// ViewModel' den view'e gelen datayı provider'a gönderir.
-    /// - Parameter data: PokeListViewModelImpl.RowType
+    /// - Parameter data: DealListPresenterOutput.RowType
     func setData(data: [T]?) {
         self.dataList = data
         tableViewReload()

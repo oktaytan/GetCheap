@@ -10,13 +10,13 @@ import Foundation
 extension TimeInterval {
     
     func getDate() -> String {
-        let dateString = Date(timeIntervalSince1970: self).description(with: .current)
+        let date = Date(timeIntervalSince1970: self)
         
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "dd MM yyyy"
+        dateFormatter.dateFormat = "dd-MM-yyyy"
         dateFormatter.timeZone = TimeZone.current
         dateFormatter.locale = Locale.current
         
-        return dateFormatter.date(from: dateString)?.description ?? ""
+        return dateFormatter.string(from: date)
     }
 }

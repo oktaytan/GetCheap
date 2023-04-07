@@ -14,5 +14,4 @@ extension String {
         attributeString.addAttribute(NSAttributedString.Key.strikethroughStyle, value: 1, range: NSRange(location: 0, length: attributeString.length))
         return attributeString
     }
-    
 }

@@ -25,7 +25,7 @@ final class StoreDetailCollectionViewProviderImpl: NSObject, CollectionViewProvi
     private var collectionView: UICollectionView?
     
     /// ViewModel' den view'e gelen datayı provider'a gönderir.
-    /// - Parameter data: PokeListViewModelImpl.RowType
+    /// - Parameter data: StoreDetailPresenterOutput.ItemType
     func setData(data: [T]?) {
         self.dataList = data
         collectionViewReload()

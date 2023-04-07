@@ -25,7 +25,7 @@ final class StoreListTableViewProviderImpl: NSObject, TableViewProvider, StoreLi
     private var tableView: UITableView?
     
     /// ViewModel' den view'e gelen datayı provider'a gönderir.
-    /// - Parameter data: PokeListViewModelImpl.RowType
+    /// - Parameter data: StoreListPresenterOutput.RowType
     func setData(data: [T]?) {
         self.dataList = data
         tableViewReload()

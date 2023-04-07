@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="111" id="KGk-i7-Jjw" customClass="GameDetailDealCell" customModule="GetCheap" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="369" height="111"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="369" height="111"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="cGo-Si-USh">
+                        <rect key="frame" x="20" y="16" width="329" height="79"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Dbm-JO-eM9">
+                                <rect key="frame" x="0.0" y="23.666666666666664" width="121" height="32"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="deals-icon-selected" translatesAutoresizingMaskIntoConstraints="NO" id="OeI-i2-tXi">
+                                        <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="32" id="TJf-30-rh9"/>
+                                            <constraint firstAttribute="height" constant="32" id="wTx-A1-yyv"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="dva-Lu-JG0">
+                                        <rect key="frame" x="40" y="0.0" width="81" height="32"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P3B-D1-9Ks">
+                                                <rect key="frame" x="0.0" y="8.6666666666666714" width="31" height="14.333333333333336"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Gk-eG-bVR" customClass="BadgeLabel" customModule="GetCheap" customModuleProvider="target">
+                                                <rect key="frame" x="49" y="8.6666666666666714" width="32" height="14.333333333333336"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="32" id="ER4-ee-zEb"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Kwj-uW-Vd9">
+                                <rect key="frame" x="145" y="14.333333333333332" width="184" height="50.666666666666671"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHR-5h-0h5">
+                                        <rect key="frame" x="142.66666666666669" y="0.0" width="41.333333333333343" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="pIN-v2-nrN">
+                                        <rect key="frame" x="142.66666666666669" y="30.333333333333336" width="41.333333333333343" height="20.333333333333336"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MK6-7M-12L" customClass="BadgeLabel" customModule="GetCheap" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="41.333333333333336" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="26A-o4-wTN">
+                        <rect key="frame" x="52" y="110" width="297" height="1"/>
+                        <color key="backgroundColor" name="grayLight"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="LVR-VC-d4c"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="26A-o4-wTN" secondAttribute="bottom" id="3lF-yR-opK"/>
+                    <constraint firstItem="cGo-Si-USh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="5bf-0g-YhU"/>
+                    <constraint firstItem="26A-o4-wTN" firstAttribute="trailing" secondItem="cGo-Si-USh" secondAttribute="trailing" id="F7m-a5-0hT"/>
+                    <constraint firstItem="26A-o4-wTN" firstAttribute="leading" secondItem="OeI-i2-tXi" secondAttribute="trailing" id="HC9-3U-L3p"/>
+                    <constraint firstItem="cGo-Si-USh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="K8H-mf-s8F"/>
+                    <constraint firstAttribute="bottom" secondItem="cGo-Si-USh" secondAttribute="bottom" constant="16" id="oMs-Hy-cP8"/>
+                    <constraint firstAttribute="trailing" secondItem="cGo-Si-USh" secondAttribute="trailing" constant="20" id="ygk-m3-JwD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="retailPriceLabel" destination="MHR-5h-0h5" id="xgT-wY-NgX"/>
+                <outlet property="salePriceLabel" destination="MK6-7M-12L" id="4on-Hk-Wc6"/>
+                <outlet property="savingsLabel" destination="2Gk-eG-bVR" id="7mk-j4-q9T"/>
+                <outlet property="savingsTitleLabel" destination="P3B-D1-9Ks" id="blI-zT-seT"/>
+            </connections>
+            <point key="canvasLocation" x="176.33587786259542" y="44.014084507042256"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="deals-icon-selected" width="31" height="31"/>
+        <namedColor name="grayLight">
+            <color red="0.94117647058823528" green="0.95686274509803926" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

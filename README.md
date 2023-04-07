@@ -41,9 +41,13 @@ Kingfisher library was used for downloading and caching images.
 ## Screenshots
 
 <div>
-  <img src="main_ss.png" width="200" height="390">  
-  <img src="detail_ss.png" width="200" height="390">
-  <img src="search_ss.png" width="200" height="390">
+  <img src="/Screenshots/ss_01.png" alt="Deals" width="200" height="390">  
+  <img src="/Screenshots/ss_02.png" alt="Store" width="200" height="390">  
+  <img src="/Screenshots/ss_03.png" alt="Games" width="200" height="390">  
+  <img src="/Screenshots/ss_04.png" alt="Games Search" width="200" height="390">  
+  <img src="/Screenshots/ss_05.png" alt="Stores" width="200" height="390">  
+  <img src="/Screenshots/ss_06.png" alt="Store" width="200" height="390">  
+  <img src="/Screenshots/ss_07.png" alt="Settings" width="200" height="390">  
 </div>
 <br />
 

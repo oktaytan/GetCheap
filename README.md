@@ -37,13 +37,13 @@ SPIndicator library was used for toast messages.
 ## Screenshots
 
 <div>
-  <img src="/Screenshots/ss_01.png" alt="Deals" width="200" height="390">  
-  <img src="/Screenshots/ss_02.png" alt="Store" width="200" height="390">  
-  <img src="/Screenshots/ss_03.png" alt="Games" width="200" height="390">  
-  <img src="/Screenshots/ss_04.png" alt="Games Search" width="200" height="390">  
-  <img src="/Screenshots/ss_05.png" alt="Stores" width="200" height="390">  
-  <img src="/Screenshots/ss_06.png" alt="Store" width="200" height="390">  
-  <img src="/Screenshots/ss_07.png" alt="Settings" width="200" height="390">  
+  <img src="/Screenshots/ss_01.png" alt="Deals" width="200">  
+  <img src="/Screenshots/ss_02.png" alt="Store" width="200">  
+  <img src="/Screenshots/ss_03.png" alt="Games" width="200">  
+  <img src="/Screenshots/ss_04.png" alt="Games Search" width="200">  
+  <img src="/Screenshots/ss_05.png" alt="Stores" width="200">  
+  <img src="/Screenshots/ss_06.png" alt="Store" width="200">  
+  <img src="/Screenshots/ss_07.png" alt="Settings" width="200">  
 </div>
 <br />
 
